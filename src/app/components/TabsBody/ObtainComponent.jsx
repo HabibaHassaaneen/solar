@@ -21,22 +21,7 @@ const ObtainComponent = () => {
             placeholder="Enter Number of angel 1"
             type="text"
         />
-         <Input
-            errorMessage="Please enter Number of angel"
-            label="Number of Angel 2"
-            labelPlacement="outside"
-            name="num_angel_two"
-            placeholder="Enter Number of angel 2"
-            type="text"
-        />
-         <Input
-            errorMessage="Please enter Number of angel"
-            label="Number of Angel 3"
-            labelPlacement="outside"
-            name="num_angel_three"
-            placeholder="Enter Number of angel 3"
-            type="text"
-        />
+        
         <Button type="submit" onClick={handleSubmit} variant="bordered">
             Submit
         </Button>

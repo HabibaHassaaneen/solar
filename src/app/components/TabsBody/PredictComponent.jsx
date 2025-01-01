@@ -21,19 +21,11 @@ const  PredictComponent = () => {
             placeholder="Enter Number of angel 1"
             type="text"
         />
-         <Input
-            errorMessage="Please enter Number of angel"
-            label="Number of Angel 2"
-            labelPlacement="outside"
-            name="num_angel_two"
-            placeholder="Enter Number of angel 2"
-            type="text"
-        />
         <Button type="submit" onClick={handleSubmit} variant="bordered">
             Submit
         </Button>
             {show && (
-                <Table aria-label="Example static collection table" className="mt-2">
+                <Table aria-label="Example static collection table" className="mt-2 mb-4">
                 <TableHeader>
                     <TableColumn>Radiation</TableColumn>
                     <TableColumn>Watts</TableColumn>
